@@ -166,6 +166,14 @@ img[src$="svg"] {
     cursor: pointer;
 }
 
+.account-info-container > img:nth-of-type(1) {
+    transition: all 0.2s;
+}
+
+.account-info-container > img:nth-of-type(1):hover {
+    transform: rotate(8deg);
+}
+
 .main-header {
     display: grid;
     grid-template-columns: 75px 1fr 1fr;
@@ -298,7 +306,7 @@ img[src$="svg"] {
 .trending-container {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
-    gap: 10px;
+    row-gap: 15px;
 }
 
 .account-card {
