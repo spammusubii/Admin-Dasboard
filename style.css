@@ -188,6 +188,11 @@ img[src$="svg"] {
     border-radius: 50%;
 }
 
+.main-header > div {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
 .main-header p:nth-of-type(2) {
     font-size: 1.7rem;
 }
